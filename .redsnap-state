@@ -23,3 +23,11 @@
 
 ---
 This file marks the current RedSnap project state. Restore from here if needed.
+
+---
+## RedSnap Snapshot Update: July 9, 2025 (latest)
+All files, code, and configuration are up to date as of this snapshot. This is a known good version reflecting all recent changes, including:
+- Slide 7 & 8 textbox position and ghost text updates
+- Slide 8 & 10 meta-prompt enhancements
+- All UI/logic and prompt changes up to this point
+To restore, use your version control system or manually copy files as needed.
