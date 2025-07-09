@@ -1,0 +1,25 @@
+
+# RedSnap Project State Marker
+
+## Snapshot: July 9, 2025
+
+### Features & Logic Implemented
+
+- PowerPoint-like React app UI with slide navigation and sidebar.
+- Six slides: Title, Subtitle, Caption (each with prompt-only and prompt+snapshot variants).
+- Slide area fits image size, is centered, and overlays textboxes precisely.
+- TextboxPlaceholder component for overlayed textboxes with pen and undo icons.
+- Pen icon appears on hover/click; opens modal for LLM prompt input.
+- Modal supports ghost text, Tab-to-paste, and Generate/Cancel buttons.
+- Per-textbox undo with history; undo icon appears on hover/click if history exists.
+- LLM integration with Azure OpenAI GPT-4o (chat completions endpoint).
+- Meta-prompts sent with every LLM request for quality, safety, and style.
+- For slides 2, 4, 6, slide image is sent as base64 for vision input.
+- Extra instructions for slides 2, 4, 6: context, style, length, visual estimation.
+- Title font size reduced by 20% for slides 1 and 2 (now 1.76rem).
+- Modal dialog title updated to 'What should Copilot add?'.
+- All Azure OpenAI secrets masked using .env; .env is gitignored.
+- Project is ready for secure cloud deployment.
+
+---
+This file marks the current RedSnap project state. Restore from here if needed.
